@@ -4,14 +4,14 @@ This is a Python-based quiz game that fetches trivia questions from the Open Tri
 
 ## Features
 
-- **Categories**: The game fetches a list of trivia categories from the OpenTDB API, allowing players to choose their preferred category.
+- **Categories**: The game fetches a list of trivia categories from the [OpenTDB API](https://opentdb.com/api_config.php), allowing players to choose their preferred category.
 - **Difficulty Levels**: Players can choose from three difficulty levels: Easy, Medium, and Hard.
 - **Question Types**: The game supports two types of questions: Multiple Choice and True/False.
 - **Score Calculation**: The game keeps track of the player's score and displays it at the end.
 
 ## How It Works
 
-1. **Fetching Categories**: The game fetches available categories from the OpenTDB API and displays them to the player.
+1. **Fetching Categories**: The game fetches available categories from the [OpenTDB API](https://opentdb.com/api_config.php) and displays them to the player.
 2. **Choosing a Category**: Players select a category by inputting the category ID.
 3. **Choosing Difficulty and Question Type**: Players select the difficulty level and question type.
 4. **Fetching Questions**: The game fetches questions based on the selected category, difficulty level, and question type.
@@ -32,7 +32,7 @@ This is a Python-based quiz game that fetches trivia questions from the Open Tri
 
 ## API Information
 
-The game uses the Open Trivia Database API to fetch trivia questions.
+The game uses the [OpenTDB API](https://opentdb.com/api_config.php) to fetch trivia questions.
 
 **Categories**: https://opentdb.com/api_category.php.
 **Questions**: https://opentdb.com/api.php?amount={num_ques}&category={category_id}&difficulty={diff_level}&type={ques_type}
