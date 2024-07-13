@@ -32,7 +32,7 @@ This is a Python-based quiz game that fetches trivia questions from the Open Tri
 
 ## API Information
 
--- The game uses the Open Trivia Database API to fetch trivia questions.
+The game uses the Open Trivia Database API to fetch trivia questions.
 
-**Categories**: https://opentdb.com/api_category.php
+**Categories**: https://opentdb.com/api_category.php.
 **Questions**: https://opentdb.com/api.php?amount={num_ques}&category={category_id}&difficulty={diff_level}&type={ques_type}
